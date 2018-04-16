@@ -23,3 +23,6 @@ def shift_with_args
 end
 
 def using_concast (array, a_array)
+  array.concat(a_array)
+end
+
