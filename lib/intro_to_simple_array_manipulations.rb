@@ -26,3 +26,5 @@ def using_concast (array, a_array)
   array.concat(a_array)
 end
 
+def using_insert (array, element)
+  array.insert(4, element)
